@@ -66,4 +66,6 @@ financialPlanning/
 │   └── package.json
 ├── requirements.txt       # Python dependencies
 └── README.md
-``` 
+```
+## App in localhost
+![image](https://github.com/user-attachments/assets/665b71f9-bede-4ae1-8c25-48d83c225f6f)
