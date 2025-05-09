@@ -6,6 +6,8 @@ import json
 from datetime import datetime
 import os
 
+from app.routes import transaction_routes
+
 app = FastAPI(title="Financial Planning API")
 
 # Configure CORS
@@ -20,6 +22,9 @@ app.add_middleware(
 # Create uploads directory if it doesn't exist
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
+
+# Include routers
+app.include_router(transaction_routes.router, prefix="/api")
 
 @app.post("/api/upload-transactions")
 async def upload_transactions(file: UploadFile = File(...)):
