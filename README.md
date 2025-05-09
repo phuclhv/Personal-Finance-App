@@ -68,4 +68,5 @@ financialPlanning/
 └── README.md
 ```
 ## App in localhost
-![image](https://github.com/user-attachments/assets/665b71f9-bede-4ae1-8c25-48d83c225f6f)
+![image](https://github.com/user-attachments/assets/d1fa93b3-f70e-488e-baa1-ae04c9186b14)
+
